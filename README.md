@@ -1,2 +1,2 @@
 # Result-Form
-This creates a list-styled result sheet based in the score information provided.
+This creates a list-styled result sheet based on the score information provided.
