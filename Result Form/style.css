@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./image.png);
+}
+
+.Main{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 30px;
+}
+
+.resultInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid white;
+
+}
+
+.resultInfo label{
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.resultInfo input{
+    border: none;
+    border-radius: 5px;
+    height: 28px;
+}
+
+.resultInfo input:hover{
+    border: none;
+}
+
+button{
+    width: 100%;
+    padding: 20px;
+    font-family: 'Roboto';
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 40px;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    width: 101%;
+}
+
+table, td, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    align-items: center;
+}
